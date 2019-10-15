@@ -1,0 +1,35 @@
+{
+  "name": "cc-exercise-node",
+  "version": "1.0.0",
+  "description": "A Node.js Restful API for getting and displaying credit card details",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true",
+    "start": "nodemon server.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*"
+    ]
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Debjeet Das",
+  "license": "ISC",
+  "dependencies": {
+    "diskdb": "^0.1.17",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.1",
+    "nodemon": "^1.19.3"
+  }
+}
